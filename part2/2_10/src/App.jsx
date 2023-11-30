@@ -1,4 +1,4 @@
-//task 2.6-
+//task 2.6-2.10
 
 import { useState } from 'react'
 import Persons from './components/Persons'
@@ -19,7 +19,6 @@ const App = (props) => {
 
   const addPerson = (event) => {
   console.log('newName...' + newPerson)
-
   event.preventDefault()
 
 
